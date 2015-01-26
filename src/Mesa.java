@@ -7,7 +7,7 @@ public class Mueble extends Mueble implements Precio{
     
 	public double precioconiva() {
 		precioIva = precio+precio*iva/100;
-		return Math.round(precioIva*Math.pow(10, 2))/Math.pow(10, 2);
+		return Math.round(precioIva);
 	}
     
 }
