@@ -1,4 +1,4 @@
-public class Mueble extends Mueble implements Precio{
+public class Mesa extends Mueble implements Precio{
 	
     int [] medidas;	
     String montaje;
