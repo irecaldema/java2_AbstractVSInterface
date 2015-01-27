@@ -1,4 +1,4 @@
-abstract public Mueble{
+public abstract class Mueble{
     String modelo;
     int n_piezas;
     int stock;
