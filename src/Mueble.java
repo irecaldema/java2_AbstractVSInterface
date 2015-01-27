@@ -1,4 +1,4 @@
-public abstract Mueble{
+abstract public Mueble{
     String modelo;
     int n_piezas;
     int stock;
